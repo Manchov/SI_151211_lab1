@@ -1,0 +1,5 @@
+commit 53ff08c2e9681c700c8d7766c493c2b6aa102fc9 (HEAD -> logs, origin/master, master)
+Author: unknown <marko.mancov@students.finki.ukim.mk>
+Date:   Tue Apr 16 16:19:45 2019 +0200
+
+    Initial commit
