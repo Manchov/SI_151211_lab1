@@ -1,0 +1,33 @@
+*Introduction Sequence*
+-1.lvl
+git commit
+git commit
+-2.lvl
+git checkout -b bugFix
+-3.lvl
+git checkout -b bugFix
+git commit
+git checkout master
+git commit
+git merge bugFix
+-4.lvl
+git checkout -b bugFix
+git commit
+git checkout master
+git commit
+git checkout bugFix
+git rebase master
+*Advanced Topics*
+-1.lvl
+git checkout bugFix
+git rebase master
+git checkout side
+git rebase bugFix
+git checkout another
+git rebase side
+git checkout master
+git rebase another
+-2.lvl
+git checkout HEAD ~^2~
+git branch bugWork
+git checkout master
